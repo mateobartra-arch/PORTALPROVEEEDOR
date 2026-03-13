@@ -260,9 +260,8 @@
     getConfigDocumentos, saveConfigDocumentos,
     setEstadoEmpresa, updateFactura, DOCS_DEFAULT
   } from "./js/firestore.js";
-  import { formatCurrency, formatDate, escapeHtml as _esc } from "./js/ui.js";
+  import { formatCurrency, formatDate, escapeHtml, initSidebar, showToast } from "./js/ui.js";
   import { router }     from "./js/router.js";
-  import { initSidebar, showToast, formatDate, escapeHtml } from "./js/ui.js";
   import { signOut, onAuthStateChanged }
     from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
